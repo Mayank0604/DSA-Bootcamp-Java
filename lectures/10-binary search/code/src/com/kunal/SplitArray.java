@@ -33,7 +33,7 @@ public class SplitArray {
                 }
             }
 
-            if (pieces > m) {
+            if (pieces > mid) {
                 start = mid + 1;
             } else {
                 end = mid;
